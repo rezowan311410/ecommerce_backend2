@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 const sendEmail = require("../helpers/sendEmail");
 const otpTempleate = require("../helpers/otpTempleate")
 const aleaRNGFactory = require("number-generator/lib/aleaRNGFactory");
+const nodemailer = require("nodemailer");
 const { set } = require("mongoose");
 
 
